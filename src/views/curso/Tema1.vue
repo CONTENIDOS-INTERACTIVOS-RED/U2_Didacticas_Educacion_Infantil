@@ -225,7 +225,7 @@
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.mb-5
-          .col-lg-8.mb-3.mb-lg-0.order-2
+          .col-lg-8.mb-3.mb-lg-0.order-lg-2
             SlyderF(columnas="col-12 col-lg-6")
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema1/20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
@@ -247,7 +247,7 @@
                 img(src='@/assets/curso/tema1/24.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Creativa
                 p.text-center Estimula la imaginación a través de diferentes formas de movimiento.
-          .col-lg-4.order-1
+          .col-lg-4.order-lg-1
             figure
               img(src='@/assets/curso/tema1/19.png', alt='')
         
@@ -261,7 +261,7 @@
       .px-4.px-md-5.py-4
         p.mb-0 Estas actividades no solo enriquecen el aprendizaje, sino que también fortalecen las habilidades sociales al fomentar la interacción con los compañeros.
     
-    h2.mb-3(data-aos="fade-left") La expresión corporal como herramienta educativa
+    h2.mb-5(data-aos="fade-left") La expresión corporal como herramienta educativa
     
     .row.mb-5
       .col-lg-4.order-2
@@ -372,10 +372,10 @@
     .bg-full-width.bg-color-3
       .px-4.px-md-5.pb-md-3.p-4
         .row.mb-5
-          .col-lg-4.order-2
+          .col-lg-4.order-lg-2.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/35.png", data-aos="zoom-in")
-          .col-lg-8.order-1.mb-3.mb-lg-0
+          .col-lg-8.order-lg-1
             .bg-color-8.p-5(data-aos="fade-left")
               ul.lista-ul--color
                 li.mb-0.d-flex
@@ -410,7 +410,7 @@
                         p.mb-0 En este sentido, se recomienda ver el siguiente video, donde a partir del minuto 8:22 se habla de arte, expresión corporal y juego en la primera infancia:
                       .col-sm-auto
                         a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=4aFAntxhUGw " target="_blank")
-                          span.bg-color-4 Ir al sitio
+                          span.bg-color-4 Ver video
                           i.fas.fa-arrow-right
               
     .bg-full-width.border-top.color-primario
